@@ -14,6 +14,9 @@ console.log(friends);
 
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8];
 numbers.push(9, 10, 11, 12);
-numbers.push(13,14,15,16);
+numbers.push(13, 14, 15, 16);
 console.log(numbers);
 
+const fruits = ["mango", "maize", "avocado", "pineapples"];
+fruits.push("watermelon", "strawberry", "banana", "orange");
+fruits.pop("Watermelon");
