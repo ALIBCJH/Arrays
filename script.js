@@ -20,3 +20,8 @@ console.log(numbers);
 const fruits = ["mango", "maize", "avocado", "pineapples"];
 fruits.push("watermelon", "strawberry", "banana", "orange");
 fruits.pop("Watermelon");
+
+const famiily = ["mark","william",'mike'];
+famiily.pop();
+console.log(famiily);
+famiily.push("juma");
