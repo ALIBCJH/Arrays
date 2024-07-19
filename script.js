@@ -21,7 +21,10 @@ const fruits = ["mango", "maize", "avocado", "pineapples"];
 fruits.push("watermelon", "strawberry", "banana", "orange");
 fruits.pop("Watermelon");
 
-const famiily = ["mark","william",'mike'];
+const famiily = ["mark", "william", "mike"];
 famiily.pop();
 console.log(famiily);
 famiily.push("juma");
+// splicing an element in an element in an array
+famiily.splice(1, 1);
+console.log(famiily);
